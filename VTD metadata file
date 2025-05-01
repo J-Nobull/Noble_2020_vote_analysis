@@ -1,0 +1,176 @@
+L2 Voter File 2020 Elections Turnout Statistics for PA, aggregated to the 2020 Census Block level 
+
+## Redistricting Data Hub (RDH) Retrieval Date
+06/10/2022
+
+## Sources
+The Redistricting Data Hub purchased this Voter File from L2, a national Voter File vendor: https://l2-data.com/
+
+## Fields
+The fields below were pulled from the L2 Voter File, dated 8/22/2021. 
+To see more detailed field descriptions, please view the attached data dictionary provided by L2. 
+All fields are for individuals who are registered on the L2 Voter File as of 8/22/2021. The RDH did not have access to legacy or snapshot voter files. 
+Field Name               		Description
+geoid20                  		15-character GEOID corresponding to 2020 Census Blocks
+total_reg                		Count of total registered voters in the Census Block, as geo-referenced by L2, on the 8/22/2021 L2 Voter File
+p20210518_voted_all      		Count of voters who voted in the following election: primary_2021_05_18
+p20210518_reg_all        		Count of voters registered on or before: 2021-05-18
+p20210518_pct_voted_all  		Percent of voters registered on or before 2021-05-18 and who voted in: primary_2021_05_18
+p20210518_voted_eur      		Count of voters who voted in the following election: primary_2021_05_18, L2 Race or Ethnicity: European
+p20210518_reg_eur        		Count of voters registered on or before: 2021-05-18, L2 Race or Ethnicity: European
+p20210518_pct_voted_eur  		Percent of voters registered on or before 2021-05-18 and who voted in: primary_2021_05_18, L2 Race or Ethnicity: European
+p20210518_voted_hisp     		Count of voters who voted in the following election: primary_2021_05_18, L2 Race or Ethnicity: Hispanic and Portuguese
+p20210518_reg_hisp       		Count of voters registered on or before: 2021-05-18, L2 Race or Ethnicity: Hispanic and Portuguese
+p20210518_pct_voted_hisp 		Percent of voters registered on or before 2021-05-18 and who voted in: primary_2021_05_18, L2 Race or Ethnicity: Hispanic and Portuguese
+p20210518_voted_aa       		Count of voters who voted in the following election: primary_2021_05_18, L2 Race or Ethnicity: Likely African-American
+p20210518_reg_aa         		Count of voters registered on or before: 2021-05-18, L2 Race or Ethnicity: Likely African-American
+p20210518_pct_voted_aa   		Percent of voters registered on or before 2021-05-18 and who voted in: primary_2021_05_18, L2 Race or Ethnicity: Likely African-American
+p20210518_voted_esa      		Count of voters who voted in the following election: primary_2021_05_18, L2 Race or Ethnicity: East and South Asian
+p20210518_reg_esa        		Count of voters registered on or before: 2021-05-18, L2 Race or Ethnicity: East and South Asian
+p20210518_pct_voted_esa  		Percent of voters registered on or before 2021-05-18 and who voted in: primary_2021_05_18, L2 Race or Ethnicity: East and South Asian
+p20210518_voted_oth      		Count of voters who voted in the following election: primary_2021_05_18, L2 Race or Ethnicity: Other
+p20210518_reg_oth        		Count of voters registered on or before: 2021-05-18, L2 Race or Ethnicity: Other
+p20210518_pct_voted_oth  		Percent of voters registered on or before 2021-05-18 and who voted in: primary_2021_05_18, L2 Race or Ethnicity: Other
+p20210518_voted_unk      		Count of voters who voted in the following election: primary_2021_05_18, L2 Race or Ethnicity: Unknown
+p20210518_reg_unk        		Count of voters registered on or before: 2021-05-18, L2 Race or Ethnicity: Unknown
+p20210518_pct_voted_unk  		Percent of voters registered on or before 2021-05-18 and who voted in: primary_2021_05_18, L2 Race or Ethnicity: Unknown
+g20201103_voted_all      		Count of voters who voted in the following election: general_2020_11_03
+g20201103_reg_all        		Count of voters registered on or before: 2020-11-03
+g20201103_pct_voted_all  		Percent of voters registered on or before 2020-11-03 and who voted in: general_2020_11_03
+g20201103_voted_eur      		Count of voters who voted in the following election: general_2020_11_03, L2 Race or Ethnicity: European
+g20201103_reg_eur        		Count of voters registered on or before: 2020-11-03, L2 Race or Ethnicity: European
+g20201103_pct_voted_eur  		Percent of voters registered on or before 2020-11-03 and who voted in: general_2020_11_03, L2 Race or Ethnicity: European
+g20201103_voted_hisp     		Count of voters who voted in the following election: general_2020_11_03, L2 Race or Ethnicity: Hispanic and Portuguese
+g20201103_reg_hisp       		Count of voters registered on or before: 2020-11-03, L2 Race or Ethnicity: Hispanic and Portuguese
+g20201103_pct_voted_hisp 		Percent of voters registered on or before 2020-11-03 and who voted in: general_2020_11_03, L2 Race or Ethnicity: Hispanic and Portuguese
+g20201103_voted_aa       		Count of voters who voted in the following election: general_2020_11_03, L2 Race or Ethnicity: Likely African-American
+g20201103_reg_aa         		Count of voters registered on or before: 2020-11-03, L2 Race or Ethnicity: Likely African-American
+g20201103_pct_voted_aa   		Percent of voters registered on or before 2020-11-03 and who voted in: general_2020_11_03, L2 Race or Ethnicity: Likely African-American
+g20201103_voted_esa      		Count of voters who voted in the following election: general_2020_11_03, L2 Race or Ethnicity: East and South Asian
+g20201103_reg_esa        		Count of voters registered on or before: 2020-11-03, L2 Race or Ethnicity: East and South Asian
+g20201103_pct_voted_esa  		Percent of voters registered on or before 2020-11-03 and who voted in: general_2020_11_03, L2 Race or Ethnicity: East and South Asian
+g20201103_voted_oth      		Count of voters who voted in the following election: general_2020_11_03, L2 Race or Ethnicity: Other
+g20201103_reg_oth        		Count of voters registered on or before: 2020-11-03, L2 Race or Ethnicity: Other
+g20201103_pct_voted_oth  		Percent of voters registered on or before 2020-11-03 and who voted in: general_2020_11_03, L2 Race or Ethnicity: Other
+g20201103_voted_unk      		Count of voters who voted in the following election: general_2020_11_03, L2 Race or Ethnicity: Unknown
+g20201103_reg_unk        		Count of voters registered on or before: 2020-11-03, L2 Race or Ethnicity: Unknown
+g20201103_pct_voted_unk  		Percent of voters registered on or before 2020-11-03 and who voted in: general_2020_11_03, L2 Race or Ethnicity: Unknown
+pp20200602_voted_all     		Count of voters who voted in the following election: presidential_primary_2020_06_02
+pp20200602_reg_all       		Count of voters registered on or before: 2020-06-02
+pp20200602_pct_voted_all 		Percent of voters registered on or before 2020-06-02 and who voted in: presidential_primary_2020_06_02
+pp20200602_voted_eur     		Count of voters who voted in the following election: presidential_primary_2020_06_02, L2 Race or Ethnicity: European
+pp20200602_reg_eur       		Count of voters registered on or before: 2020-06-02, L2 Race or Ethnicity: European
+pp20200602_pct_voted_eur 		Percent of voters registered on or before 2020-06-02 and who voted in: presidential_primary_2020_06_02, L2 Race or Ethnicity: European
+pp20200602_voted_hisp    		Count of voters who voted in the following election: presidential_primary_2020_06_02, L2 Race or Ethnicity: Hispanic and Portuguese
+pp20200602_reg_hisp      		Count of voters registered on or before: 2020-06-02, L2 Race or Ethnicity: Hispanic and Portuguese
+pp20200602_pct_voted_hisp		Percent of voters registered on or before 2020-06-02 and who voted in: presidential_primary_2020_06_02, L2 Race or Ethnicity: Hispanic and Portuguese
+pp20200602_voted_aa      		Count of voters who voted in the following election: presidential_primary_2020_06_02, L2 Race or Ethnicity: Likely African-American
+pp20200602_reg_aa        		Count of voters registered on or before: 2020-06-02, L2 Race or Ethnicity: Likely African-American
+pp20200602_pct_voted_aa  		Percent of voters registered on or before 2020-06-02 and who voted in: presidential_primary_2020_06_02, L2 Race or Ethnicity: Likely African-American
+pp20200602_voted_esa     		Count of voters who voted in the following election: presidential_primary_2020_06_02, L2 Race or Ethnicity: East and South Asian
+pp20200602_reg_esa       		Count of voters registered on or before: 2020-06-02, L2 Race or Ethnicity: East and South Asian
+pp20200602_pct_voted_esa 		Percent of voters registered on or before 2020-06-02 and who voted in: presidential_primary_2020_06_02, L2 Race or Ethnicity: East and South Asian
+pp20200602_voted_oth     		Count of voters who voted in the following election: presidential_primary_2020_06_02, L2 Race or Ethnicity: Other
+pp20200602_reg_oth       		Count of voters registered on or before: 2020-06-02, L2 Race or Ethnicity: Other
+pp20200602_pct_voted_oth 		Percent of voters registered on or before 2020-06-02 and who voted in: presidential_primary_2020_06_02, L2 Race or Ethnicity: Other
+pp20200602_voted_unk     		Count of voters who voted in the following election: presidential_primary_2020_06_02, L2 Race or Ethnicity: Unknown
+pp20200602_reg_unk       		Count of voters registered on or before: 2020-06-02, L2 Race or Ethnicity: Unknown
+pp20200602_pct_voted_unk 		Percent of voters registered on or before 2020-06-02 and who voted in: presidential_primary_2020_06_02, L2 Race or Ethnicity: Unknown
+p20200602_voted_all      		Count of voters who voted in the following election: primary_2020_06_02
+p20200602_reg_all        		Count of voters registered on or before: 2020-06-02
+p20200602_pct_voted_all  		Percent of voters registered on or before 2020-06-02 and who voted in: primary_2020_06_02
+p20200602_voted_eur      		Count of voters who voted in the following election: primary_2020_06_02, L2 Race or Ethnicity: European
+p20200602_reg_eur        		Count of voters registered on or before: 2020-06-02, L2 Race or Ethnicity: European
+p20200602_pct_voted_eur  		Percent of voters registered on or before 2020-06-02 and who voted in: primary_2020_06_02, L2 Race or Ethnicity: European
+p20200602_voted_hisp     		Count of voters who voted in the following election: primary_2020_06_02, L2 Race or Ethnicity: Hispanic and Portuguese
+p20200602_reg_hisp       		Count of voters registered on or before: 2020-06-02, L2 Race or Ethnicity: Hispanic and Portuguese
+p20200602_pct_voted_hisp 		Percent of voters registered on or before 2020-06-02 and who voted in: primary_2020_06_02, L2 Race or Ethnicity: Hispanic and Portuguese
+p20200602_voted_aa       		Count of voters who voted in the following election: primary_2020_06_02, L2 Race or Ethnicity: Likely African-American
+p20200602_reg_aa         		Count of voters registered on or before: 2020-06-02, L2 Race or Ethnicity: Likely African-American
+p20200602_pct_voted_aa   		Percent of voters registered on or before 2020-06-02 and who voted in: primary_2020_06_02, L2 Race or Ethnicity: Likely African-American
+p20200602_voted_esa      		Count of voters who voted in the following election: primary_2020_06_02, L2 Race or Ethnicity: East and South Asian
+p20200602_reg_esa        		Count of voters registered on or before: 2020-06-02, L2 Race or Ethnicity: East and South Asian
+p20200602_pct_voted_esa  		Percent of voters registered on or before 2020-06-02 and who voted in: primary_2020_06_02, L2 Race or Ethnicity: East and South Asian
+p20200602_voted_oth      		Count of voters who voted in the following election: primary_2020_06_02, L2 Race or Ethnicity: Other
+p20200602_reg_oth        		Count of voters registered on or before: 2020-06-02, L2 Race or Ethnicity: Other
+p20200602_pct_voted_oth  		Percent of voters registered on or before 2020-06-02 and who voted in: primary_2020_06_02, L2 Race or Ethnicity: Other
+p20200602_voted_unk      		Count of voters who voted in the following election: primary_2020_06_02, L2 Race or Ethnicity: Unknown
+p20200602_reg_unk        		Count of voters registered on or before: 2020-06-02, L2 Race or Ethnicity: Unknown
+p20200602_pct_voted_unk  		Percent of voters registered on or before 2020-06-02 and who voted in: primary_2020_06_02, L2 Race or Ethnicity: Unknown
+s20200317_voted_all      		Count of voters who voted in the following election: special_2020_03_17
+s20200317_reg_all        		Count of voters registered on or before: 2020-03-17
+s20200317_pct_voted_all  		Percent of voters registered on or before 2020-03-17 and who voted in: special_2020_03_17
+s20200317_voted_eur      		Count of voters who voted in the following election: special_2020_03_17, L2 Race or Ethnicity: European
+s20200317_reg_eur        		Count of voters registered on or before: 2020-03-17, L2 Race or Ethnicity: European
+s20200317_pct_voted_eur  		Percent of voters registered on or before 2020-03-17 and who voted in: special_2020_03_17, L2 Race or Ethnicity: European
+s20200317_voted_hisp     		Count of voters who voted in the following election: special_2020_03_17, L2 Race or Ethnicity: Hispanic and Portuguese
+s20200317_reg_hisp       		Count of voters registered on or before: 2020-03-17, L2 Race or Ethnicity: Hispanic and Portuguese
+s20200317_pct_voted_hisp 		Percent of voters registered on or before 2020-03-17 and who voted in: special_2020_03_17, L2 Race or Ethnicity: Hispanic and Portuguese
+s20200317_voted_aa       		Count of voters who voted in the following election: special_2020_03_17, L2 Race or Ethnicity: Likely African-American
+s20200317_reg_aa         		Count of voters registered on or before: 2020-03-17, L2 Race or Ethnicity: Likely African-American
+s20200317_pct_voted_aa   		Percent of voters registered on or before 2020-03-17 and who voted in: special_2020_03_17, L2 Race or Ethnicity: Likely African-American
+s20200317_voted_esa      		Count of voters who voted in the following election: special_2020_03_17, L2 Race or Ethnicity: East and South Asian
+s20200317_reg_esa        		Count of voters registered on or before: 2020-03-17, L2 Race or Ethnicity: East and South Asian
+s20200317_pct_voted_esa  		Percent of voters registered on or before 2020-03-17 and who voted in: special_2020_03_17, L2 Race or Ethnicity: East and South Asian
+s20200317_voted_oth      		Count of voters who voted in the following election: special_2020_03_17, L2 Race or Ethnicity: Other
+s20200317_reg_oth        		Count of voters registered on or before: 2020-03-17, L2 Race or Ethnicity: Other
+s20200317_pct_voted_oth  		Percent of voters registered on or before 2020-03-17 and who voted in: special_2020_03_17, L2 Race or Ethnicity: Other
+s20200317_voted_unk      		Count of voters who voted in the following election: special_2020_03_17, L2 Race or Ethnicity: Unknown
+s20200317_reg_unk        		Count of voters registered on or before: 2020-03-17, L2 Race or Ethnicity: Unknown
+s20200317_pct_voted_unk  		Percent of voters registered on or before 2020-03-17 and who voted in: special_2020_03_17, L2 Race or Ethnicity: Unknown
+s20200225_voted_all      		Count of voters who voted in the following election: special_2020_02_25
+s20200225_reg_all        		Count of voters registered on or before: 2020-02-25
+s20200225_pct_voted_all  		Percent of voters registered on or before 2020-02-25 and who voted in: special_2020_02_25
+s20200225_voted_eur      		Count of voters who voted in the following election: special_2020_02_25, L2 Race or Ethnicity: European
+s20200225_reg_eur        		Count of voters registered on or before: 2020-02-25, L2 Race or Ethnicity: European
+s20200225_pct_voted_eur  		Percent of voters registered on or before 2020-02-25 and who voted in: special_2020_02_25, L2 Race or Ethnicity: European
+s20200225_voted_hisp     		Count of voters who voted in the following election: special_2020_02_25, L2 Race or Ethnicity: Hispanic and Portuguese
+s20200225_reg_hisp       		Count of voters registered on or before: 2020-02-25, L2 Race or Ethnicity: Hispanic and Portuguese
+s20200225_pct_voted_hisp 		Percent of voters registered on or before 2020-02-25 and who voted in: special_2020_02_25, L2 Race or Ethnicity: Hispanic and Portuguese
+s20200225_voted_aa       		Count of voters who voted in the following election: special_2020_02_25, L2 Race or Ethnicity: Likely African-American
+s20200225_reg_aa         		Count of voters registered on or before: 2020-02-25, L2 Race or Ethnicity: Likely African-American
+s20200225_pct_voted_aa   		Percent of voters registered on or before 2020-02-25 and who voted in: special_2020_02_25, L2 Race or Ethnicity: Likely African-American
+s20200225_voted_esa      		Count of voters who voted in the following election: special_2020_02_25, L2 Race or Ethnicity: East and South Asian
+s20200225_reg_esa        		Count of voters registered on or before: 2020-02-25, L2 Race or Ethnicity: East and South Asian
+s20200225_pct_voted_esa  		Percent of voters registered on or before 2020-02-25 and who voted in: special_2020_02_25, L2 Race or Ethnicity: East and South Asian
+s20200225_voted_oth      		Count of voters who voted in the following election: special_2020_02_25, L2 Race or Ethnicity: Other
+s20200225_reg_oth        		Count of voters registered on or before: 2020-02-25, L2 Race or Ethnicity: Other
+s20200225_pct_voted_oth  		Percent of voters registered on or before 2020-02-25 and who voted in: special_2020_02_25, L2 Race or Ethnicity: Other
+s20200225_voted_unk      		Count of voters who voted in the following election: special_2020_02_25, L2 Race or Ethnicity: Unknown
+s20200225_reg_unk        		Count of voters registered on or before: 2020-02-25, L2 Race or Ethnicity: Unknown
+s20200225_pct_voted_unk  		Percent of voters registered on or before 2020-02-25 and who voted in: special_2020_02_25, L2 Race or Ethnicity: Unknown
+s20200114_voted_all      		Count of voters who voted in the following election: special_2020_01_14
+s20200114_reg_all        		Count of voters registered on or before: 2020-01-14
+s20200114_pct_voted_all  		Percent of voters registered on or before 2020-01-14 and who voted in: special_2020_01_14
+s20200114_voted_eur      		Count of voters who voted in the following election: special_2020_01_14, L2 Race or Ethnicity: European
+s20200114_reg_eur        		Count of voters registered on or before: 2020-01-14, L2 Race or Ethnicity: European
+s20200114_pct_voted_eur  		Percent of voters registered on or before 2020-01-14 and who voted in: special_2020_01_14, L2 Race or Ethnicity: European
+s20200114_voted_hisp     		Count of voters who voted in the following election: special_2020_01_14, L2 Race or Ethnicity: Hispanic and Portuguese
+s20200114_reg_hisp       		Count of voters registered on or before: 2020-01-14, L2 Race or Ethnicity: Hispanic and Portuguese
+s20200114_pct_voted_hisp 		Percent of voters registered on or before 2020-01-14 and who voted in: special_2020_01_14, L2 Race or Ethnicity: Hispanic and Portuguese
+s20200114_voted_aa       		Count of voters who voted in the following election: special_2020_01_14, L2 Race or Ethnicity: Likely African-American
+s20200114_reg_aa         		Count of voters registered on or before: 2020-01-14, L2 Race or Ethnicity: Likely African-American
+s20200114_pct_voted_aa   		Percent of voters registered on or before 2020-01-14 and who voted in: special_2020_01_14, L2 Race or Ethnicity: Likely African-American
+s20200114_voted_esa      		Count of voters who voted in the following election: special_2020_01_14, L2 Race or Ethnicity: East and South Asian
+s20200114_reg_esa        		Count of voters registered on or before: 2020-01-14, L2 Race or Ethnicity: East and South Asian
+s20200114_pct_voted_esa  		Percent of voters registered on or before 2020-01-14 and who voted in: special_2020_01_14, L2 Race or Ethnicity: East and South Asian
+s20200114_voted_oth      		Count of voters who voted in the following election: special_2020_01_14, L2 Race or Ethnicity: Other
+s20200114_reg_oth        		Count of voters registered on or before: 2020-01-14, L2 Race or Ethnicity: Other
+s20200114_pct_voted_oth  		Percent of voters registered on or before 2020-01-14 and who voted in: special_2020_01_14, L2 Race or Ethnicity: Other
+s20200114_voted_unk      		Count of voters who voted in the following election: special_2020_01_14, L2 Race or Ethnicity: Unknown
+s20200114_reg_unk        		Count of voters registered on or before: 2020-01-14, L2 Race or Ethnicity: Unknown
+s20200114_pct_voted_unk  		Percent of voters registered on or before 2020-01-14 and who voted in: special_2020_01_14, L2 Race or Ethnicity: Unknown
+
+## Processing
+L2 assigns each voter to a 2010 Census Block on their Voter File. 
+L2 provided the RDH with a file that has each individual and their corresponding 2020 Census Block, dated 9/1/2021. 
+The RDH joined the L2 Voter File to this 2020 Census Block assignment file. 
+The RDH then aggregated the individual level Voter File to the Census Block level. 
+The RDH created Census Block GEOIDs by concatenating the County FIPS, Census Tract, and Census Block codes for each individual. For some individuals, the GEOID created by concatenating the fields was not one that exists on the Census. The RDH removed these, as they are likely attributed to movers who were reassigned county but were not geocoded at their new address. This accounted for less than 1.5% of voters nationally. 
+Processing was completed using SQL and Python. 
+The RDH cannot certify the accuracy of any of the information contained within this file, or that the 2020 Blocks were the accurate geographies used for the elections contained in the file. 
+
+## Additional Notes
+The Block GEOID is composed of: 2-character State Fips + 3-Character County Fips + 6 character VTD ID + 4 character Block ID
+
+Please contact info@redistrictingdatahub.org for more information.
