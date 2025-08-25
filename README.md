@@ -5,7 +5,7 @@ ML project from Advanced Analysis 630
 Pennsylvania was chosen because they had the tightest Democrat/Republican split (closest to 50%). 
 It was impossible to acurately match voting districts to census blocks, so ended up with 67 clean records to analyze (county level) and results were unexpected.
 
-Combine K-Means, Hierarchical Agglomerative Clustering, 
+- Combine K-Means, Hierarchical Agglomerative Clustering, 
 Logistic Regression, Classification, Upsupervised Learning, and MANOVA to 
 analyze dataset, identify key predictors, and evaluate their statistical significance.
 
