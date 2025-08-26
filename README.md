@@ -7,6 +7,6 @@ It was impossible to acurately match voting districts to census blocks, so ended
 - Logistic Regression, Classification, Upsupervised Learning, and MANOVA to 
 analyze dataset, identify key predictors, and evaluate their statistical significance.
 
-This project will be expanded to analyze national demographics and confirm characteristics that strongly associate to party affiliation.
+- This project will be expanded to analyze national demographics and confirm characteristics that strongly associate to party affiliation.
 It combines two files from the U.S. Census and one from the MIT Election Data & Science Lab (MEDSL) to create a single datafile on the November 2020 general election.
 Project now analyzes all of the U.S. (50 states and the District of Columbia).
