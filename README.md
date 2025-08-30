@@ -98,7 +98,8 @@ Data_folder/
 Future improvements could include:  
 
 * Incorporating **geospatial analysis** at precinct or district levels.  
-* Using **time-series election data** (past election cycles) to identify demographic shifts.  
+* Using **time-series election data** (past election cycles) to identify demographic shifts.
+* Include education and economic/income data in analysis
 
 ---  
 This project represents a **capstone milestone in my transition from coursework to independent data science research**.
