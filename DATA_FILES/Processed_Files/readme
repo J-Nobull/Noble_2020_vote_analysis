@@ -1,1 +1,3 @@
-placeholder
+Processed files are created during the coding analysis.
+They are saved as a way to skip processing steps.
+E.G. The merged data can be loaded if other algorythms want to be tested without cleaning the datafiles first. 
