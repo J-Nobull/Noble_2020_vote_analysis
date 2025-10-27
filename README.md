@@ -1,11 +1,11 @@
 # U.S. 2020 Election Demographics & Voting Analysis  
 
-This repository contains an advanced **data science capstone project** analyzing the **2020 U.S. General Election**.
-Originally completed as part of my Master’s coursework with a **Pennsylvania-only dataset**, the project was later **expanded into a nationwide personal project** to provide deeper insights into demographic and voting patterns.  
+This repository contains an advanced **data science project** analyzing the **2020 U.S. General Election**.
+Originally completed as part of a Master’s coursework with a **Pennsylvania-only dataset**, then became a personal project and was **expanded into a nationwide analysis** to provide deeper insights into demographic and voting patterns.  
 
 Voting data too large to upload (even .zip) to Github, 51 state and D.C. files available at:
 https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/NT66Z3
-(See notes in notebook "Import MEDSL data (3 of 3)" Select files were downloaded direct from state.gov websites for various reasons)
+(See notes in py notebook "Import MEDSL data (3 of 3)." Certain files were downloaded directly from state.gov websites for various reasons)
 
 ---  
 ## Project Overview  
@@ -56,9 +56,9 @@ Data_folder/
    * Identified correlations between demographics and party outcomes.  
 
 3. **Modeling Approaches**  
+   * **Unsupervised Learning** – clustering demographics to explore hidden voter groupings.  
    * **Logistic Regression** – predicting likelihood of Democratic vs Republican vote share.  
    * **Classification Models** – Decision Trees, Random Forests, and Lasso Regression for feature selection.  
-   * **Unsupervised Learning** – clustering demographics to explore hidden voter groupings.  
    * **Multivariate Analysis (MANOVA)** – testing multivariate relationships across demographic predictors.  
 
 4. **Evaluation**  
@@ -69,28 +69,27 @@ Data_folder/
 ---  
 ## Tech Stack  
 **Language & Environment**  
-* Python (Jupyter Notebook)  
+   * Python (Jupyter Notebook)  
 
 **Core Libraries**  
-* **Data Handling**: `pandas`, `numpy`, `collections.Counter`  
-* **Visualization**: `matplotlib`, `seaborn`, `PartialDependenceDisplay`  
-* **Statistics**: `scipy.stats`, `statsmodels` (including MANOVA, VIF)  
-* **Machine Learning**:  
+   * **Data Handling**: `pandas`, `numpy`, `collections.Counter`  
+   * **Visualization**: `matplotlib`, `seaborn`, `PartialDependenceDisplay`  
+   * **Statistics**: `scipy.stats`, `statsmodels` (including MANOVA, VIF)  
+   * **Machine Learning**:  
 
-  * Models: `LogisticRegression`, `DecisionTreeClassifier`, `RandomForestClassifier`, `LassoCV`  
-  * Preprocessing: `StandardScaler`, `MinMaxScaler`  
-  * Evaluation: `train_test_split`, `cross_val_score`, `confusion_matrix`, `classification_report`, ROC/AUC metrics  
-  * Feature Selection: `RFECV`, permutation importance  
+   * Models: `LogisticRegression`, `DecisionTreeClassifier`, `RandomForestClassifier`, `LassoCV`  
+   * Preprocessing: `StandardScaler`, `MinMaxScaler`  
+   * Evaluation: `train_test_split`, `cross_val_score`, `confusion_matrix`, `classification_report`, ROC/AUC metrics  
+   * Feature Selection: `RFECV`, permutation importance  
 
 ---  
 ## Key Takeaways  
-* **Pennsylvania-only analysis** showed the challenges of small-sample modeling when census blocks do not align with precincts.  
+* **Pennsylvania-only analysis** showed the challenges of small-sample modeling after discovery that there was no accurate way to match census blocks with precincts.  
 * **Nationwide analysis** provided a more robust dataset, allowing for stronger conclusions on which demographic factors most strongly associate with party affiliation.  
 * Demonstrated ability to:  
-
-  * Integrate disparate large-scale public datasets.  
-  * Apply **both statistical and machine learning techniques**.  
-  * Communicate findings through clear visualizations and structured reporting.  
+   * Integrate disparate large-scale datasets.  
+   * Apply **both statistical and machine learning techniques**.  
+   * Communicate findings through clear visualizations and structured reporting.  
 
 ---  
 ## Next Steps  
@@ -99,8 +98,8 @@ Future improvements could include:
 
 * Incorporating **geospatial analysis** at precinct or district levels.  
 * Using **time-series election data** (past election cycles) to identify demographic shifts.
-* Include education and economic/income data in analysis
+* Include economic demographics (e.g. income and education) in analysis
 
 ---  
-This project represents a **capstone milestone in my transition from coursework to independent data science research**.
+This project represents a **milestone in my transition from coursework to independent data science research**.
 ---
